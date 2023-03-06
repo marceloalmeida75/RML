@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.edu.ifsp.sbv.tcc.tcc.SorteioActivity">
+
+    <TextView
+        android:id="@+id/txtSorteio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="116dp"
+        android:layout_marginStart="116dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"/>
+
+    <Button
+        android:id="@+id/btn_toBe"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/screen_border1"
+        android:text="Verb To Be"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"/>
+
+    <Button
+        android:id="@+id/btnPresent"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="503dp"
+        android:layout_marginStart="503dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/screen_border2"
+        android:text="PRESENT PERFECT"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"/>
+
+    <Button
+        android:id="@+id/btnPhrasal"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/screen_border3"
+        android:text="PHRASAL VERBS"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toRightOf="@+id/btnPresent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"/>
+</android.support.constraint.ConstraintLayout>

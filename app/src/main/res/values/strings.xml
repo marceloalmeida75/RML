@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TCC</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_conectar">Conectar</string>
+    <string name="action_desconectar">Desconectar</string>
+    <string name="action_configurar">Configurar</string>
+    <string name="action_sortear">Sortear</string>
+    <string name="action_linguagem">Linguagem</string>
+</resources>
